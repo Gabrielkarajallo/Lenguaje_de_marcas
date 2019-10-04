@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<consesionario>
+    <marcas nombre="Abarth." pais="españa">
+        <coche matricula="123456" modelo="2000" plazas="2" cc="" ></coche>
+        <coche matricula="234567" modelo="4007" plazas="4" cc="" ></coche>
+    </marcas>
+
+    <marcas nombre="Alfa Romeo." pais="brazil">
+        <coche matricula="678987" modelo="2001" plazas="0" cc="" ></coche>
+        <coche matricula="535678" modelo="2019" plazas="7" cc="" ></coche>
+    </marcas>
+
+    <marcas nombre="Alpine" pais="argentina">
+        <coche matricula="345647" modelo="2004" plazas="89" cc="" ></coche>
+        <coche matricula="257786" modelo="2007" plazas="6" cc="" ></coche>
+    </marcas>
+
+    <marcas nombre="Audi" pais="chile">
+        <coche matricula="588542" modelo="2008" plazas="4" cc="" ></coche>
+        <coche matricula="256895" modelo="2078" plazas="4" cc="" ></coche>
+    </marcas>
+
+    <marcas nombre="Bugatti" pais="japón">
+        <coche matricula="854758" modelo="2010" plazas="5" cc="" ></coche>
+        <coche matricula="859685" modelo="2020" plazas="5" cc="" ></coche>
+    </marcas>
+
+</consesionario>

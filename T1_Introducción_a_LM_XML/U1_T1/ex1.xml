@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Ejercicio 1-->
+
+<libro>
+    <titulo>Don Quijote</titulo>
+    <autor>Miguel Cervantes</autor>
+    <editorial>Vincens Vives</editorial>
+    <paginas numero="" >2</paginas>
+    <capitulos>
+        <capitulo pag_inicio="1" pag_finalizacion="10" titulo=""/>
+        <capitulo pag_inicio="11" pag_finalizacion="20" titulo=""/>
+        <capitulo pag_inicio="21" pag_finalizacion="30" titulo=""/>
+        <capitulo pag_inicio="31" pag_finalizacion="40" titulo=""/>
+        <capitulo pag_inicio="41" pag_finalizacion="50" titulo=""/>
+    </capitulos>
+</libro>

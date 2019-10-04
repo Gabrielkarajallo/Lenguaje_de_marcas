@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tiendas>
+    <nombres>
+        <!--tienda 1-->
+        <nombre nombre="H M">
+            <parcelas numero="3"></parcelas>
+            <metros_2>3</metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+
+        <!--tienda 2-->
+        <nombre nombre="zara">
+            <parcelas numero="1"></parcelas>
+            <metros_2>4</metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+
+        <!--tienda 3-->
+        <nombre nombre="stradivarius">
+            <parcelas numero="2"></parcelas>
+            <metros_2>4</metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+
+        <!--tienda 4-->
+        <nombre nombre="massimo dutti">
+            <parcelas numero="3"></parcelas>
+            <metros_2></metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+
+        <!--tienda 5-->
+        <nombre nombre="lefties">
+            <parcelas numero="4"></parcelas>
+            <metros_2></metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+
+        <!--tienda 6-->
+        <nombre nombre="inside">
+            <parcelas numero=""></parcelas>
+            <metros_2></metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+
+        <!--tienda 7-->
+        <nombre nombre="springfield">
+            <parcelas numero=""></parcelas>
+            <metros_2></metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+
+        <!--tienda 8-->
+        <nombre nombre="levis">
+            <parcelas numero=""></parcelas>
+            <metros_2></metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+
+        <!--tienda 9-->
+        <nombre nombre="amichi">
+            <parcelas numero=""></parcelas>
+            <metros_2></metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+
+        <!--tienda 10-->
+        <nombre nombre="decimas">
+            <parcelas numero=""></parcelas>
+            <metros_2></metros_2>
+            <encargado nombre="" apellidos="" telefono="" nss="" ></encargado>
+        </nombre>
+    </nombres>
+
+
+
+</tiendas>
