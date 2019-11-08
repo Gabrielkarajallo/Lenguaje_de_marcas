@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style=" box-shadow: 2px 2px 10px;border-block-color: blue;border-right-color: blue;border-left-color: blue;">
+        <h1 style="font-family: arial;">Reservation Request</h1>
+        <form action="">
+            <fieldset>
+                <legend style="color: blue; font-family: arial;"><b>General Information</b></legend>
+                <table>
+                    <tr>
+                        <td>Arrival date: </td>
+                        <td><input type="date"></td>
+                        <td style="color: red;">Arrival date is invalid</td>
+                    </tr>
+                    <tr>
+                        <td>Nigths: </td>
+                        <td><input type="text"></td>
+                        <td style="color: red;">Nigths must be a number</td>
+                    </tr>
+                    <tr>
+                        <td>Adults:</td>
+                        <td><select>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Children</td>
+                        <td><select>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                        </select></td>
+                    </tr>
+            </table>
+            </fieldset>
+            <fieldset>
+                <legend style="color: blue;font-family: arial;"> <b>Preferences</b></legend>
+                <table>
+                    <tr>
+                        <td>Room type:</td>
+                        <td><input type="radio" name="room">Standard</td>
+                        <td><input type="radio" name="room">Business</td>
+                        <td><input type="radio" name="room">Suite</td>
+                    </tr>
+                    <tr>
+                        <td>Bed type: </td>
+                        <td><input type="radio" name="bed">King</td>
+                        <td><input type="radio" name="bed">Double Double</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox">Smoking</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend style="color: blue;font-family: arial;"><b>Contact Information</b></legend>
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text"></td>
+                        <td style="color: red;">Name is required</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email"></td>
+                        <td style="color: red;">Email address is invalid</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text"></td>
+                        <td style="color: red;">Phone number is invalid</td>
+                    </tr>
+                </table>
+            </fieldset>
+            <table>
+                <tr>
+                    <td><button>Submit Reservation</button></td>
+                    <td><button>Clear</button></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
