@@ -1,0 +1,14 @@
+.titulo th{
+    background-color:  rgb(137, 147, 158);
+    color:rgb(59, 59, 141);
+}
+.subtitulo{
+    color: rgb(110, 29, 29);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+}

@@ -1,0 +1,26 @@
+
+
+td 
+{
+    border-bottom: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: yellow;
+}
+
+tr:nth-child(even){
+    background-color: rgb(0, 89, 255);
+}
+
+tr:hover{
+    background-color: rgb(0, 255, 64);
+    color: violet;
+}
+th{
+    background-color: black;
+    color: white;
+}

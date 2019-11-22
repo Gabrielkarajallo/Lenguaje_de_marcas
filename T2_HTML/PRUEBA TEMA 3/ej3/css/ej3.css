@@ -1,0 +1,30 @@
+h1, h2{
+    color: red;
+}
+strong, em{
+    color: red;
+}
+
+ul li ul li{
+  color: red;  
+}
+
+.location{
+    color: blue;
+}
+
+td{
+    color: red;
+}
+
+form label{
+    color: blue;
+}
+
+.required{
+    color: red;
+}
+
+#twitter{
+    color: red;
+}
