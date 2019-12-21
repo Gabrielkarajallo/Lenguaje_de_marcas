@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container2{
+    float: left;
+    width: 60%;
+    
+}
+
+h1{
+    color: white;
+}
+s
+.encabezado{
+    background-color: black; 
+}
+
+.sub_encabezado{
+    background-color: black;
+    padding: 15px;
+}
+
+.login{
+    position: relative;
+    float: right;
+}
+
+.menu{
+    background-color:  rgb(92, 143, 92);
+   overflow: auto;
+   webkit-box-shadow:0px 1px 1px black; 
+ 
+-moz-box-shadow:0px 1px 1px black; 
+ 
+box-shadow:0px 1px 1px black; 
+}
+
+.menu div{
+    background-color: rgb(92, 143, 92);
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    color: white;
+    
+}
+
+.principal{
+    margin-left: 10px;
+    margin-top: 30px;
+    clear: left;
+    background-color: rgb(187, 187, 187);
+    width: 18%;
+    float: left;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.principal img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.patio{
+ width: 80%;
+ margin: auto;
+ text-align: center;
+ margin-top: 30px;
+}
+
+.patio img{
+  overflow-y: auto;
+}
+
+.categorias{
+    clear: left;
+    border-bottom: solid 1px rgb(92, 143, 92);
+    margin-top: 50px;
+    background-color: rgb(187, 187, 187);
+}
+
+.categorias ul li{
+    color: rgb(92, 143, 92);
+}
+
+.arbol{
+    background-color: rgb(187, 187, 187);
+    margin-top: 10px;
+    clear: left;
+    border: 1px solid rgb(92, 143, 92) ;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+
+.arbol img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px
+    
+}
+.calendario{
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+    background-color: rgb(187, 187, 187);
+    width: 18%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    
+}
+.calendario h4{
+    margin-left: 15px;
+}
+.calendario img{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 60px;
+    margin-left: 15px;
+}
+.footer{
+    text-align: center;
+    clear: left;
+    background-color: black;
+    height: 65px;
+}
+
+.footer p{
+    color: white;
+}
+
+.arbol ul li{
+    color:rgb(92, 143, 92) ;
+    list-style-type: none;
+}
+
+.arbol ul li span{
+    color:black ;
+}
+
+
