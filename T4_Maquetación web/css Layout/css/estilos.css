@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #d7ca95;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.buscar{
+    background-color: #d7ca95;
+    padding: 28px;
+    position: relative;
+}
+
+.buscar input{
+    float: right;
+    border-radius: 20px;
+    border: 1px solid #372d24;
+    width: 40%;
+    height: 30px;
+    background-color: #372d24;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    color: #5e9b79;
+}
+
+nav{
+    background-color: #372d24;
+    height: 90px;
+    border-top: 13px solid #ff7900;
+}
+
+nav img{
+    width: 70%px;
+    float: left;
+    height: 90%;
+    margin-left: 20px;
+}
+
+.menu{
+    float: left;
+    margin-left: 500px;
+}
+
+.menu div{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    line-height: 77px;
+    width: 70px;
+    text-align: center;
+}
+
+.menu div:hover{
+    background-color: #292019;
+}
+
+nav div {
+    float: left;
+    color: #5e9b79;
+    margin-right: 25px;
+}
+
+.lorem{
+    clear: left;
+    width: 100%;
+}
+
+.titulo1{
+    margin-left: 100px;
+    font-family: 'Satisfy', serif;
+    font-size: 30px;
+    width: 45%;
+    margin-bottom: 5px;
+}
+
+.img2{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.parrafo1{
+    width: 35%;
+    height: 60%;
+    float: left;
+}
+
+.parrafo1 p{
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;;
+}
+
+/* imagen de la derecha*/
+.img_grande{
+    margin-right: 0px;
+   position: absolute;
+   right: 0px;
+   top: 200px;
+
+}
+
+
+/*segundo div de la izquierda */
+.lorem2{
+    clear: left;
+    font-family: 'satify', serif;
+    font-size: 30px;
+}
+
+.titulo2{
+    height: 10%;
+    width: 45%;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    font-family: 'Satisfy', serif;
+    font-size: 30px;
+}
+
+/*Aqui empieza el cuadro marron de la izquierda */
+
+.caja_marron{
+    margin-left: 65px;
+    height: 200px;
+    width: 45%;
+    float: left;
+    background-color: #29221c;
+    margin-bottom: 50px;
+}
+
+.caja1{
+    border-bottom: 5px solid #3c332c;
+    width: 90%;
+    margin: auto;
+    height: 40%;
+    margin-top: 10px;
+}
+
+.design{
+    float: left;
+    line-height: 10px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #ec8a31;
+}
+
+.design p{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+
+span{
+    color: #dc6c08;
+}
+
+
+.see_more{
+    float: left;
+    line-height: 5px;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #332c22;
+    background-color: #e98428;
+}
+
+.see_more p{
+    font-size: 17px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 5px;
+}
+
+#icon{
+    margin-right: 5px;
+}
+
+
+
+.caja2{
+    clear: left;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 70px;
+}
+
+.subcaja1{
+    float: left;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 5px;
+    width: 130px;
+}
+.subcaja1 p{
+    color: #dc6c08;
+    margin: 5px;
+    font-size: 10px;
+}
+.subcaja1 p.design2{
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+}
+
+.subcaja2{
+    float: left;
+    margin-right: 35px;
+    margin-top: 5px;
+    width: 160px;
+}
+
+.subcaja2 p.development{
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+}
+
+.subcaja2 p{
+    color: #dc6c08;
+    margin: 5px;
+    font-size: 10px;
+}
+
+
+.subcaja3{
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 140px;
+}
+
+.subcaja3 p{
+    color: #dc6c08;
+    margin: 5px;
+    font-size: 10px;
+}
+
+.subcaja3 p.consultation{
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+}
+
+.consultation{
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+}
+
+
+
+/* contenido de la derecha*/
+
+.contenedor_cajas{
+    margin-top: 0px;
+}
+
+.caja_derecha{
+    float: left;
+    margin-left: 150px;
+    width: 500px;
+}
+
+.titulo3  {
+    font-family: 'Anton', sans-serif;
+    color: #231a13;
+    font-size: 25px;
+}
+
+.integer p{
+    font-family: 'PT Sans', sans-serif;
+    margin: 5px;
+}
+
+.integer{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.p1{
+    font-size: 10px;
+    margin: 5px;
+}
+
+.pelle p{
+    font-family: 'PT Sans', sans-serif;
+    margin: 5px;
+}
+
+.pelle{
+    margin-bottom: 20px;
+}
+
+.p2{
+    font-size: 10px;
+    margin: 5px;
+}
+
+.quisque p{
+    font-family: 'PT Sans', sans-serif;
+    margin: 5px;
+}
+
+.quisque{
+    margin-bottom: 20px;
+}
+
+.p3{
+    font-size: 10px;
+    margin: 5px;
+}
+
+
+
