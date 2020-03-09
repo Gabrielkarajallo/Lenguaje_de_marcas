@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.autor{
+    background-color: #3a5d06;
+}
+.logo{
+    background-color: #6d9b22;
+}
+.texto_cabecera{
+    background-color: #6d9b22;
+}
+body{
+    background-color: #eeeeee;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+@media screen and (max-width: 576px) {
+    .cabecera{
+        height: 275px;
+       
+    }
+    .logo{
+        height: 130px;
+        text-align: center;
+    }
+    .logo img{
+        position: relative;
+        top: 10px;
+        filter: drop-shadow(6px 5px 5px #444);
+    }
+    .texto_cabecera{
+        height: 107px;
+    }
+    .texto_cabecera h1{
+        font-family: 'Patua One', cursive;
+        font-size: 4vw;
+        color: white;
+        padding: 10px;
+       margin: 0px;
+       
+    }
+    .texto_cabecera p{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 10px;
+    }
+    .autor{
+        height: 40px;
+        
+    }
+    .autor p{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0px;
+        position: relative;
+        top: 10px;
+        text-align: center;
+    }
+    .cuerpo{
+        background-color: #eeeeee;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .foto_vaca{
+        display: flex;
+    }
+    .foto_vaca img{
+        padding: 10px;
+        width: 100%;
+    }
+       
+    .lista ul li{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        margin: 5px;
+        color: rgb(85, 85, 85);
+    }
+
+    .acesse{
+        background-color: #ad3f13;
+        height: 90px;
+        width: 90%;
+        padding: 15px;
+        margin: auto;
+    }
+    .acesse p{
+        color: rgba(255, 255, 255, 0.836);
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        margin: 0px;
+    }
+    .acesse .titulo{
+        font-size: 16px;
+    }
+    .escolha{
+        background-color:#dddddd;
+        width: 90%;
+        margin: auto;
+    }
+    .escolha p{
+        width: 80%;
+        text-align: justify;
+        margin: auto;
+        padding: 15px;
+        color: rgb(126, 122, 122);
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+    }
+    .enviar{
+        margin-top: 20px;
+    }
+    .botones{
+        width: 90%;
+        margin: auto;
+        background-color:#dddddd;
+        text-align: center;
+        height: 125px;
+    }
+
+    .botones button{
+        font-family: 'Francois One', sans-serif;
+        background-image:linear-gradient(#f14040,#d01212);
+        color: white;
+        border: 0px;
+        margin: 10px;
+        border-radius: 3px;
+        width: 40%;
+        padding: 0,8rem;
+    }
+    .iconos{
+        display: flex;
+        justify-content: center;
+    }
+    .iconos div{
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+/*Tablet*/
+@media screen and (min-width: 578px){
+    .cabecera{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 25%;
+        
+    }
+    .logo img{
+        position: relative;
+        top: 20px;
+        left: 25px;
+        filter: drop-shadow(6px 5px 5px #444);
+    }
+    .texto_cabecera{
+        width: 75%;
+    }
+    
+    .texto_cabecera h1{
+        font-family: 'Patua One', cursive;
+        font-size: 4vw;
+        color: white;
+        padding: 10px;
+       margin: 0px;
+    }
+    .texto_cabecera p{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 10px;
+    }
+    .autor{
+       width: 100%;
+       height: 50px;
+       
+    }
+    .autor p{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin: 0px;
+        position: relative;
+        top: 10px;
+        text-align: center;
+    }
+
+    .cuerpo{
+        background-color: #eeeeee;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .foto_vaca{
+        display: flex;
+        width: 50%;
+        margin-top: 10px;
+    }
+    .foto_vaca img{
+        padding: 10px;
+        width: 100%;
+    }
+       
+    .lista{
+        width: 50%;
+        flex-wrap: wrap;
+        order: 3;
+    }
+    .lista ul li{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        margin: 5px;
+        color: rgb(85, 85, 85);
+    }
+    .enviar{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-top: 20px;
+        order: 2;
+    }
+    .botones{
+        width: 90%;
+        margin: auto;
+        background-color:#dddddd;
+        text-align: center;
+        height: 125px;
+    }
+
+    .botones button{
+        font-family: 'Francois One', sans-serif;
+        background-image:linear-gradient(#f14040,#d01212);
+        color: white;
+        border: 0px;
+        margin: 10px;
+        border-radius: 3px;
+        width: 40%;
+        padding: 0,8rem;
+    }
+    .iconos{
+        display: flex;
+        justify-content: center;
+    }
+    .iconos div{
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+
+    .acesse{
+        background-color: #ad3f13;
+        height: 90px;
+        width: 90%;
+        padding: 15px;
+        margin: auto;
+    }
+    .acesse p{
+        color: rgba(255, 255, 255, 0.836);
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        margin: 0px;
+    }
+    .acesse .titulo{
+        font-size: 16px;
+    }
+    .escolha{
+        background-color:#dddddd;
+        width: 90%;
+        margin: auto;
+    }
+    .escolha p{
+        width: 80%;
+        text-align: justify;
+        margin: auto;
+        padding: 15px;
+        color: rgb(126, 122, 122);
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+    }
+    .enviar{
+        margin-top: 20px;
+        
+    }
+    .botones{
+        width: 90%;
+        margin: auto;
+        background-color:#dddddd;
+        text-align: center;
+        height: 125px;
+    }
+
+    .botones button{
+        font-family: 'Francois One', sans-serif;
+        background-image:linear-gradient(#f14040,#d01212);
+        color: white;
+        border: 0px;
+        margin: 10px;
+        border-radius: 3px;
+        width: 40%;
+        padding: 0,8rem;
+    }
+    .iconos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .iconos div{
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) and (orientation: landscape){
+    .logo{
+        order: 2;
+    }
+
+    .texto_cabecera{
+        order: 1;
+    }
+    .autor{
+        order: 3;
+    }
+}
