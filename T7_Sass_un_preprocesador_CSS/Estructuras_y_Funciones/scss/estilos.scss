@@ -1,0 +1,194 @@
+//Colores generales
+$color-background: rgb(93, 154, 211);
+$color_nombre:rgb(49, 49, 49);
+$color_titulo: $color-background;
+$color_letra: black;
+
+//Fondo del encabezado
+.encabezado{
+    background-color: $color-background;
+}
+
+//Contenedor principal
+$anchura_container: 100%;
+$margen: 0px;
+body{
+    margin: $margen;
+}
+
+//Estilos de imagen
+$anchura_imagen: 25%;
+img{
+    width: $anchura_imagen;
+    border-radius: 50px;
+}
+
+//Estilo tipo de letra
+.nombre h1{
+    color: $color_nombre;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h2{
+    color:  $color-background;
+    font-family: 'Patrick Hand', cursive;
+}
+
+p, li{
+    font-family: 'Montserrat', sans-serif;
+    color:$color_letra;
+    font-size: 13px;
+    list-style: none;
+}
+
+//Subtitulos
+$titulos_hover: rgb(62, 50, 243);
+h2{
+    &:hover{
+        color: $titulos_hover;
+    }
+}
+.cajas{
+    padding: 20px;
+    padding-top: 10px;
+}
+
+@for $i from 1 through 4{
+    .cajas:nth-child(#{$i}){
+        font-size: 15px;
+    }
+}
+
+
+
+//Estilos para la tabla
+section{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    box-shadow: 4px 4px 6px #999;
+}
+th, td{
+    border: 1px solid black;
+    padding: 1rem;
+}
+th{
+    font-family: 'Patrick Hand', cursive; 
+}
+td{
+    font-family: 'Montserrat', sans-serif;
+}
+
+$num:1;
+$color-list: rgb(93, 154, 211), #581845, #900c3f, #c70039,#945184, rgb(255, 115, 0), #ffc300;
+
+@while $num <= 7 {
+   tr:nth-child(#{$num}){
+       color: black;
+       background-color: nth($color-list, $num);
+   }
+   $num: $num +1;
+}
+
+@function  calcularAnchura($col,$total){
+    @return porcetaje($col/$total);
+}
+
+.cajas div{
+    background-color: #c1d2db;
+    width: calcularAnchura(10,10 );
+}
+
+
+
+//Tema claro y oscuro
+
+
+
+//breackpoints
+@media screen and (max-width: 576px){
+    .container{
+        width: $anchura_container;
+        margin: 0px auto;
+    }
+    .encabezado{
+        text-align: center;
+    }
+    img{
+        padding-top: 20px;
+    }
+    .nombre h1{
+        margin-top: 8px;
+    }
+
+    
+}
+
+@media screen and (min-width: 578px){
+    .encabezado{
+        display: flex;
+    }
+    .foto{
+        text-align: center;
+        width: 30%;
+    }
+    img{
+        margin-top: 9px;
+    }
+    .nombre h1{
+        font-size: 4vw;
+        margin-top: 25px;
+    }
+    .cajas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .caja1{
+        width: 50%;
+    }
+    
+    
+    .caja2{
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .caja3{
+        width: 50%;
+    }
+    .caja4{
+        display: flex;
+        width: 50%;
+    }
+
+    p,li{
+        text-align: justify;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (orientation: landscape){
+    .cajas{
+        display: flex;    
+    }
+    .cajas div{
+        width: 25%;
+    }
+
+    .caja2 h2{
+        text-align: center;
+    }
+    .caja3 h2{
+        text-align: center;
+    }
+    .caja4 h2{
+        text-align: center;
+    }
+}
+
+
+

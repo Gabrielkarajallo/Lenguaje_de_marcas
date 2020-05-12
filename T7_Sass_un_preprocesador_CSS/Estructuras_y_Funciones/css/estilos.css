@@ -1,0 +1,208 @@
+.encabezado {
+  background-color: #5d9ad3;
+}
+
+body {
+  margin: 0px;
+}
+
+img {
+  width: 25%;
+  border-radius: 50px;
+}
+
+.nombre h1 {
+  color: #313131;
+  font-family: "Patrick Hand", cursive;
+}
+
+h2 {
+  color: #5d9ad3;
+  font-family: "Patrick Hand", cursive;
+}
+
+p, li {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 13px;
+  list-style: none;
+}
+
+h2:hover {
+  color: #3e32f3;
+}
+
+.cajas {
+  padding: 20px;
+  padding-top: 10px;
+}
+
+.cajas:nth-child(1) {
+  font-size: 15px;
+}
+
+.cajas:nth-child(2) {
+  font-size: 15px;
+}
+
+.cajas:nth-child(3) {
+  font-size: 15px;
+}
+
+.cajas:nth-child(4) {
+  font-size: 15px;
+}
+
+section {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+  box-shadow: 4px 4px 6px #999;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+th {
+  font-family: "Patrick Hand", cursive;
+}
+
+td {
+  font-family: "Montserrat", sans-serif;
+}
+
+tr:nth-child(1) {
+  color: black;
+  background-color: #5d9ad3;
+}
+
+tr:nth-child(2) {
+  color: black;
+  background-color: #581845;
+}
+
+tr:nth-child(3) {
+  color: black;
+  background-color: #900c3f;
+}
+
+tr:nth-child(4) {
+  color: black;
+  background-color: #c70039;
+}
+
+tr:nth-child(5) {
+  color: black;
+  background-color: #945184;
+}
+
+tr:nth-child(6) {
+  color: black;
+  background-color: #ff7300;
+}
+
+tr:nth-child(7) {
+  color: black;
+  background-color: #ffc300;
+}
+
+.cajas div {
+  background-color: #c1d2db;
+  width: porcetaje(1);
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  .encabezado {
+    text-align: center;
+  }
+
+  img {
+    padding-top: 20px;
+  }
+
+  .nombre h1 {
+    margin-top: 8px;
+  }
+}
+@media screen and (min-width: 578px) {
+  .encabezado {
+    display: flex;
+  }
+
+  .foto {
+    text-align: center;
+    width: 30%;
+  }
+
+  img {
+    margin-top: 9px;
+  }
+
+  .nombre h1 {
+    font-size: 4vw;
+    margin-top: 25px;
+  }
+
+  .cajas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .caja1 {
+    width: 50%;
+  }
+
+  .caja2 {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  .caja3 {
+    width: 50%;
+  }
+
+  .caja4 {
+    display: flex;
+    width: 50%;
+  }
+
+  p, li {
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 992px) and (orientation: landscape) {
+  .cajas {
+    display: flex;
+  }
+
+  .cajas div {
+    width: 25%;
+  }
+
+  .caja2 h2 {
+    text-align: center;
+  }
+
+  .caja3 h2 {
+    text-align: center;
+  }
+
+  .caja4 h2 {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
